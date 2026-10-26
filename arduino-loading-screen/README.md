@@ -27,7 +27,7 @@ LCD 동작 순서는 아래와 같습니다.
 
 아두이노는 아래 사진처럼 연결했습니다.
 
-![회로 사진](arduino-loading-screen/Fritzing.png)
+![회로 사진](<img width="1148" height="690" alt="스크린샷 2026-10-26 161648" src="https://github.com/user-attachments/assets/83517240-ed3e-44d8-a1b1-24b6f42107e7" />)
 
 I2C LCD의 GND, VCC, SDA, SCL을 각각 아두이노의 GND, 5V, A4, A5에 연결했습니다.
 
