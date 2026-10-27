@@ -127,6 +127,6 @@ void loop() {
 
 ## 동작 영상
 
-[![동작 영상]https://github.com/user-attachments/assets/88892b00-ca61-425a-9c7a-acafdb1256f3
+https://github.com/user-attachments/assets/88892b00-ca61-425a-9c7a-acafdb1256f3
 
 
