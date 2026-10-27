@@ -27,7 +27,7 @@ LiquidCrystal_I2C lcd(0x27, 16, 2);
 ```
 
 를 이용해 I2C LCD를 사용합니다.
-0x27은 LCD의 I2C 주소이입니다
+0x27은 LCD의 I2C 주소입니다
 
 ### 2.모양 만들기
 
