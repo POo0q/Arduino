@@ -20,18 +20,18 @@ I2C LCD의 GND, VCC, SDA, SCL을 각각 아두이노의 GND, 5V, A4, A5에 연�
 
 ### 1. 라이브러리와 LCD 설정
 
-```c
+```cpp
 #include <LiquidCrystal_I2C.h>
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 ```
 
 를 이용해 I2C LCD를 사용합니다.
-0x27은 LCD의 I2C 주소입니다
+0x27은 LCD의 I2C 주소입니다.
 
-### 2.모양 만들기
+### 2. 모양 만들기
 
-```c
+```cpp
 byte c1[8] = { 0x0E, 0x1F, 0x1F, 0x0E, 0x00, 0x00, 0x00, 0x00 };
 ```
 
@@ -51,7 +51,7 @@ LCD 한 칸은 가로 5픽셀, 세로 8픽셀입니다.
 
 ### 3. 모양 바꿔 보여주기
 
-```c
+```cpp
 void show(byte *f, int ms) {
   lcd.createChar(0, f);
   lcd.setCursor(0, 0);
@@ -66,7 +66,7 @@ void show(byte *f, int ms) {
 
 ### 4. 공 튀기기
 
-```c
+```cpp
 void loop() {
   show(c1, 250);
   show(c2, 120);
@@ -88,7 +88,7 @@ void loop() {
 
 ## 전체 코드
 
-```c
+```cpp
 #include <LiquidCrystal_I2C.h>
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);
@@ -141,7 +141,7 @@ ai를 이용해 추가 버전도 만들어 보았습니다.
 <details>
 <summary>전체 코드 보기</summary>
 
-```c
+```cpp
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 #include <math.h>
