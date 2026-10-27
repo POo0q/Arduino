@@ -7,6 +7,7 @@ LCD의 한 칸에 공이 튀어오릅니다.
 
 ## 회로
 
+
 아두이노는 아래 사진처럼 연결했습니다.
 
 <img width="1148" height="690" alt="회로 사진" src="https://github.com/user-attachments/assets/83517240-ed3e-44d8-a1b1-24b6f42107e7" />
