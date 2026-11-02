@@ -11,7 +11,7 @@ p5.js 화면에 슬라이더를 추가하고, 슬라이더 값을 시리얼 통�
 
 <img width="1982" height="1198" alt="1793605593787_image" src="https://github.com/user-attachments/assets/4aa10894-9741-4f9d-a1eb-4a51c4028d71" />
 
-I2C LCD의 SDA, SCL은 A4, A5에, 가변저항 가운데 다리는 A0에, 버튼은 2번 핀에 연결했습니다. ON/OFF용 LED는 13번 핀에, 이번에 추가한 밝기 조절용 LED는 PWM을 지원하는 10번 핀에 저항을 거쳐 연결했습니다.
+I2C LCD의 SDA, SCL은 A4, A5에, 가변저항 가운데 다리는 A0에, 버튼은 2번 핀에 연결했습니다. ON/OFF용 LED는 13번 핀에, 이번에 추가한 밝기 조절용 LED는 10번 핀에 저항을 거쳐 연결했습니다.
 
 ---
 
