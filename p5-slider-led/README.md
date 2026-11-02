@@ -80,9 +80,8 @@ pinMode(10, OUTPUT);
 ---
 
 ## 전체 코드
-
 <details>
-<summary>p5.js 전체 코드 보기</summary>
+<summary>p5.js 수정 코드 보기</summary>
 
 ```javascript
 // 복잡한 통신은 serial-helper.js가 처리합니다.
@@ -146,7 +145,7 @@ function receiveLine(line) {
 ```
 
 </details>
-
+https://editor.p5js.org/POo0q/sketches/E-TcmSe1d p5.js 전체 코드
 <details>
 <summary>Arduino 전체 코드 보기</summary>
 
