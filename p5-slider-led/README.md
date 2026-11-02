@@ -145,7 +145,8 @@ function receiveLine(line) {
 ```
 
 </details>
-https://editor.p5js.org/POo0q/sketches/E-TcmSe1d p5.js 전체 코드
+
+p5.js 전체 코드: [p5.js 에디터에서 보기](https://editor.p5js.org/POo0q/sketches/E-TcmSe1d)
 
 <details>
 <summary>Arduino 전체 코드 보기</summary>
