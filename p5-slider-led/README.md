@@ -48,8 +48,8 @@ async function callbackFunction() {
 
 ```javascript
 fill(25, 40, 60); textSize(15); textAlign(CENTER);
-text('슬라이더: ' + slider.value() + '/255', 420, 275);
-slider.position(310, 284);
+text('슬라이더: ' + slider.value() + '/255', 420, 265);
+slider.position(310, 295);
 slider.size(220);
 ```
 
@@ -117,8 +117,8 @@ function draw() {
   textSize(14); text('9600 baud · ON / OFF + 줄바꿈', 300, 325);
   text('수신: 0~1023 또는 POT:값 · LED:ON / LED:OFF', 300, 352);
   fill(25, 40, 60); textSize(15); textAlign(CENTER);
-  text('슬라이더: ' + slider.value() + '/255', 420, 275);
-  slider.position(310, 284);
+  text('슬라이더: ' + slider.value() + '/255', 420, 265);
+  slider.position(310, 295);  
   slider.size(220);
 }
 
