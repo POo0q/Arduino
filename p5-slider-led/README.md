@@ -462,3 +462,4 @@ void loop() {
 ---
 
 ## 동작 영상
+https://github.com/user-attachments/assets/d495406a-6e24-4238-8a60-8243dfed2b6a
