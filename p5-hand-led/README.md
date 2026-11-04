@@ -272,8 +272,8 @@ void setup() {
 
 void loop() {
   if (Serial.available() > 0) {
-    int s = Serial.parseInt();   // "123" → 123
-    if (Serial.read() == '\n') { // 줄 끝까지 읽었으면
+    int s = Serial.parseInt();
+    if (Serial.read() == '\n') {
       analogWrite(10, constrain(s, 0, 255));
     }
   }
